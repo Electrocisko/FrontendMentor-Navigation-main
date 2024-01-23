@@ -1,8 +1,15 @@
 import './app.scss'
+import Navbar from './components/navbar/Navbar';
+import Main from './components/main/Main';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
-    <div>App</div>
+   <>
+   <Navbar/>
+   <Main/>
+   <Footer/>
+   </>
   )
 }
 
