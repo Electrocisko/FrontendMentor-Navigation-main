@@ -1,30 +1,31 @@
 import styles from './navbar.module.scss'
+import {NavLink}from 'react-router-dom'
 
 function Navbar() {
   return (
   <nav className={styles.nav}>
     <ul>
     <li>
-        <a href="#"><img src="./src/assets/images/logo.svg" alt="" /></a>
+        <NavLink to="/"><img src="./src/assets/images/logo.svg" alt="" /></NavLink>
       </li>
       <li>
-        <a href="#">Features <img src="./src/assets/images/icon-arrow-down.svg" alt="Icon Arrow down" /></a>
+        <NavLink to="/features">Features <img src="./src/assets/images/icon-arrow-down.svg" alt="Icon Arrow down" /></NavLink>
       </li>
       <li>
-        <a href="#">Company <img src="./src/assets/images/icon-arrow-down.svg" alt="Icon Arrow down" /></a>
+        <NavLink to="/company">Company <img src="./src/assets/images/icon-arrow-down.svg" alt="Icon Arrow down" /></NavLink>
       </li>
       <li>
-        <a href="#">Careers</a>
+        <NavLink to="/careers">Careers</NavLink>
       </li>
       <li>
-        <a href="#">About</a>
+        <NavLink to="/about">About</NavLink>
       </li>
       <div className={styles.session}>
       <li>
-        <a href="#">Login</a>
+        <NavLink to="/login">Login</NavLink>
       </li>
       <li >
-        <a className={styles.register} href="#">Register</a>
+        <NavLink className={styles.register} to="/register">Register</NavLink>
       </li>
       </div>
 
