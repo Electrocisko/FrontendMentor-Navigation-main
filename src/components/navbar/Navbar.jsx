@@ -1,9 +1,9 @@
-import styles from './navbar.module.scss'
+import './navbar.css'
 import {NavLink}from 'react-router-dom'
 
 function Navbar() {
   return (
-  <nav className={styles.nav}>
+  <nav className="nav">
     <ul>
     <li>
         <NavLink to="/"><img src="./src/assets/images/logo.svg" alt="" /></NavLink>
@@ -20,12 +20,12 @@ function Navbar() {
       <li>
         <NavLink to="/about">About</NavLink>
       </li>
-      <div className={styles.session}>
+      <div className="session">
       <li>
         <NavLink to="/login">Login</NavLink>
       </li>
       <li >
-        <NavLink className={styles.register} to="/register">Register</NavLink>
+        <NavLink className="register" to="/register">Register</NavLink>
       </li>
       </div>
 
