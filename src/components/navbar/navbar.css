@@ -1,7 +1,8 @@
 .nav-mobil {
     display: flex;
     justify-content: space-between;
-    height: 35px;
+    align-items:center;
+    padding: 10px;
 }
 
 
@@ -34,6 +35,9 @@ nav ul li a:not(.active):hover {
     border-radius: 10px;
 }
 
+.logo {
+    margin: 0px;
+}
 
 
 

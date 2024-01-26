@@ -8,11 +8,11 @@ function Navbar() {
   return (
     <nav>
       <div className="nav-mobil">
-        <li>
-          <Link to="/" className="title">
+    
+          <Link to="/" className="logo">
             <img src="./src/assets/images/logo.svg" alt="Logo" />
           </Link>
-        </li>
+        
 
         <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
           <img src="./src/assets/images/icon-menu.svg" alt="Logo" />
