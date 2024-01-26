@@ -1,0 +1,39 @@
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: initial;
+
+}
+
+.nav {
+    background-color: var(--color-Almost-White);
+    padding: 20px 10px 10px 20px;
+}
+
+.session {
+    display: flex;
+    gap: 20px;
+}
+
+.active {
+    color: var(--color-Almost-Black);
+}
+
+a {
+    color: var(--color-Medium-Gray);
+    text-decoration: none;
+}
+
+.register {
+    border: solid 1px;
+    border-color: var(--color-Almost-Black);
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+
+nav .menu span {
+    height: 0.4rem;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 0.2rem;
+}
