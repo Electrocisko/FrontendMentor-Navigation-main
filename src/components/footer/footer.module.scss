@@ -1,14 +1,20 @@
 .attribution {
 
+    p {
+        font-size: 11px;
+        text-align: center; 
+    }
+
     font-size: 11px;
     text-align: center;
-    position: absolute;
-    left: 40%;
-    bottom: 0px;
+    // position: absolute;
+    // left: 40%;
+    // bottom: 0px;
     
 
     a {
         color: hsl(228, 45%, 44%);
+        text-decoration: none;
     }
 }
 
